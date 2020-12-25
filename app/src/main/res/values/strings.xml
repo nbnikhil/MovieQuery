@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieQuery</string>
+    <string name="search">Search</string>
+    <string name="search_results">Search Results</string>
+    <string name="genre">Genre</string>
+    <string name="watchlist">WatchList</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="hint_search_string">Search Movie, TV shows</string>
+    <string name="action">Action</string>
+    <string name="drama">Drama</string>
+    <string name="romance">Romance</string>
+    <string name="comedy">Comedy</string>
+    <string name="horror">Horror</string>
+    <string name="my_watchlist">My Watchlist</string>
+    <string name="top_genres">Top Genres</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_poster">Movie poster</string>
+</resources>

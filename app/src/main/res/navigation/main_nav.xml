@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/search"
+    android:id="@+id/main_nav">
+
+    <fragment
+        android:id="@+id/search"
+        tools:layout="@layout/search_fragment"
+        android:name="com.example.moviequery.SearchFragment"
+        android:label="@string/search"/>
+
+    <fragment
+        android:id="@+id/search_results"
+        tools:layout="@layout/search_results_fragment"
+        android:name="com.example.moviequery.SearchResultsFragment"
+        android:label="@string/search_results"/>
+
+    <fragment
+        android:id="@+id/genre_selected"
+        tools:layout="@layout/genre_selected_fragment"
+        android:name="com.example.moviequery.GenreSelectedFragment"
+        android:label="@string/genre"/>
+
+    <fragment
+        android:id="@+id/watch_list"
+        tools:layout="@layout/watch_list_fragment"
+        android:name="com.example.moviequery.WatchListFragment"
+        android:label="@string/watchlist"/>
+
+    <fragment
+        android:id="@+id/movie_details"
+        tools:layout="@layout/movie_details_fragment"
+        android:name="com.example.moviequery.MovieDetailsFragment"
+        android:label="@string/movie_details"/>
+
+
+</navigation>
